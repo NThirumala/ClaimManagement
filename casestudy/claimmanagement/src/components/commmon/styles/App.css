@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+.footer{
+  color:white;
+  background-color: #003366;
+  bottom: 0;
+  width:100%;
+  position:fixed;
+}
+.btn-mar{
+  margin-right: 5px;
+}
+.title{
+  color:white;
+  background-color: #003366;
+  width:100%;
+}

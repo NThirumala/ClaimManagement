@@ -1,0 +1,34 @@
+.box1{
+    background-color: chocolate;
+    border-radius: 10px 10px 10px 10px;
+    overflow : hidden;
+    height: 700px;
+    max-height: 45vh;
+    -webkit-box-shadow:0px 12px 18px -6px rgba(0,0,0,0.3);
+    box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+}
+.box{
+    margin:20px;
+}
+.grid{
+    min-height: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+}
+.grid > div {
+flex-basis: calc(33.333333% - 40px);
+}
+.logout{
+    float: right;
+    flex-direction: row;
+  }
+  .topnav {
+    flex-direction: row;
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+  .topnav .login-container {
+    float: right;
+  }
+  
